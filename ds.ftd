@@ -1,0 +1,38 @@
+-- import: footer.fifthtry.site
+-- import: design-system.fifthtry.site
+export: site-header, borders, button, icon-button, primary-button, toggle-image-link, image, secondary-button, text-area, circle-text-button, phosphor-icon-button, inline-row, footer-link, copyright-text, page-widths, header-link, page, heading-hero, heading-large, heading-medium, heading-small, heading-tiny, copy-large, copy-regular, copy-small, fine-print, source-code, link, section-row, section-column, column, element-radius, radius, row, flush, gap, hv, spaces, border-data, border-bottom, alert, container, text-input, danger-button, checkbox, link-button, floater, copy-to-clipboard-text, copy-to-clipboard-icon, label-text, package-info, storybook, code, divider, types, widths
+
+-- ftd.image-src site-logo: $setting.site-logo
+-- string site-url: $setting.site-url
+-- string copyright: $setting.copyright
+
+-- import: cinema-core.fifthtry.site/cs
+
+-- ftd.color-scheme colors: $cs.main
+
+-- ds.page-widths widths:
+regular.px: 1540
+narrow.px: 1260
+wide.px: 1800
+
+-- component site-footer:
+
+-- footer.social-sideline-footer:
+footer-links: $footer.sitemap.sections
+copyright: $setting.copyright
+twitter-logo: $setting.twitter-logo
+twitter-url: $setting.twitter-url
+facebook-logo: $setting.facebook-logo
+facebook-url: $setting.facebook-url
+discord-logo: $setting.discord-logo
+discord-url: $setting.discord-url
+instagram-logo: $setting.instagram-logo
+instagram-url: $setting.instagram-url
+telegram-logo: $setting.telegram-logo
+telegram-url: $setting.telegram-url
+site-url: $setting.site-url
+site-logo: $site-logo
+logo-height: $setting.logo-height
+social: $setting.social
+
+-- end: site-footer

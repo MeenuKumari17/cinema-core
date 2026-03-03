@@ -1,0 +1,265 @@
+-- p.site-page: cinema-core
+spacing: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.zero
+theme-switcher: false
+
+-- ds.section-column:
+align-content: top-center
+flush: narrow
+inset if { ftd.device == "mobile" }: $ds.spaces.inset-square.medium
+
+-- hero.circle-hero: Lorem ipsum dolor sit amet
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+radius: $ds.radius.zero
+inset: $ds.spaces.inset-square.extra-large
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- ds.heading-large: Lorem Ipsum 
+
+-- ds.row:
+wrap: true
+spacing: $ds.spaces.horizontal-gap.large
+inset: $ds.spaces.inset-tall.zero-medium
+
+-- lib.icon-card: Lorem ipsum dolor
+icon: $assets.files.assets.icon-2.svg
+width.fixed.px: 350
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor
+
+-- lib.icon-card: Lorem ipsum dolor
+icon: $assets.files.assets.icon-1.svg
+width.fixed.px: 350
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor
+
+-- lib.icon-card: Lorem ipsum dolor
+icon: $assets.files.assets.icon-2.svg
+width.fixed.px: 350
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor
+
+-- end: ds.row
+
+-- end: ds.column
+
+-- ds.column:
+inset: $ds.spaces.inset-square.zero
+
+-- hero.hero-sticky-image: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+sticky-image: $assets.files.assets.sticky-placeholder.svg
+
+-- end: ds.column
+
+-- ds.column:
+inset: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.extra-extra-large
+
+-- ds.column:
+inset: $ds.spaces.inset-square.zero
+
+-- ftd.image:
+src: $assets.files.assets.icon-3.svg 
+width.fixed.px: 100
+height.fixed.px: 100
+anchor: parent
+left.px: 0
+top.px: -124
+
+-- accordion.right-hug-accordion: Lorem Ipsum
+accordions: $accordions
+background: true
+no-border: true
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum.
+
+-- end: ds.column
+
+-- ds.column:
+background.solid: $ds.colors.background.step-1
+inset: $ds.spaces.inset-tall.large
+radius: $ds.radius.zero
+spacing: $ds.spaces.vertical-gap.large
+width.fixed.px if { ftd.device != "mobile" }: $setting.max-width
+
+-- ds.heading-large: Lorem ipsum dolor
+align: center
+
+-- ds.row:
+wrap: true
+spacing: $ds.spaces.horizontal-gap.large
+inset if { ftd.device != "mobile" }: $ds.spaces.inset-tall.large
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- lib.overlay-card: We Transform ideas.
+card-image: $assets.files.assets.placeholder.png
+cta-text: More
+cta-link: /
+
+-- end: ds.row
+
+-- end: ds.column
+
+-- ftd.image:
+src: $assets.files.assets.icon-3.svg 
+width.fixed.px: 100
+height.fixed.px: 100
+anchor: parent
+right.px: 0
+bottom.px: 680
+
+-- lib.metric-card: Transform ideas.
+icon: $assets.files.assets.placeholder.png
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.
+
+-- ds.column:
+inset if { ftd.device != "mobile" }: $ds.spaces.inset-tall.large
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.heading-large: Lorem ipsum dolor
+align: center
+
+-- team.member: 
+team-member: $team-member
+
+-- end: ds.column
+
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: p.site-page
+
+
+
+
+-- stepper.number list numbers:
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 1
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 2
+right: true
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- stepper.number: Lorem
+image: https://meenukumari28.github.io/admint-multisteps/-/meenukumari28.github.io/admint-multisteps/assets/card4.png
+number: 3
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- end: numbers
+
+
+
+
+
+
+
+
+-- team-r.members list team-member:
+
+-- team-r.members: Andy Smith
+profile: Founder and CEO
+image: $assets.files.assets.placeholder.png
+twitter-link: /
+linkedin-link: /
+instagram-link: /
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- team-r.members: Sophie Moore
+profile: VP of Marketing
+image: $assets.files.assets.placeholder.png
+twitter-link: /
+linkedin-link: /
+instagram-link: /
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- team-r.members: Matt Cannon
+profile: VP of Product
+image: $assets.files.assets.placeholder.png
+twitter-link: /
+linkedin-link: /
+instagram-link: /
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- end: team-member
+
+
+
+
+
+
+
+-- accordion.accordion-list list accordions:
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- end: accordions
