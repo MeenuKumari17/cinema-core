@@ -35,13 +35,13 @@ width.fixed.px if { icon-card.big-icon }: 180
 if: { icon-card.title != NULL }
 align if { !icon-card.left-align }: center
 color if { icon-card.dark }: #ffffff
-color: $ds.colors.text-strong
+color: $inherited.colors.text-strong
 
 -- ds.copy-regular: $icon-card.body
 if: { icon-card.body != NULL }
 align if { !icon-card.left-align }: center
 color if { icon-card.dark }: #ffffff
-color: $ds.colors.text
+color: $inherited.colors.text
 
 -- end: ds.column
 
@@ -80,7 +80,7 @@ height.fixed.px if { overlay-card.fixed-height }: 350
 
 -- ftd.column:
 if: { overlay-card.hover }
-background.solid: $ds.colors.background.overlay
+background.solid: $inherited.colors.background.overlay
 anchor: parent
 top.px: 0
 width: fill-container
@@ -91,7 +91,7 @@ spacing.fixed.px: 120
 
 -- ds.heading-medium: $overlay-card.title
 align: center
-color: $ds.colors.cta-secondary.text
+color: $inherited.colors.cta-secondary.text
 
 -- ds.copy-regular: $overlay-card.body
 if: { overlay-card.body != NULL }
@@ -99,8 +99,8 @@ if: { overlay-card.body != NULL }
 -- ds.copy-small: $overlay-card.cta-text
 if: { overlay-card.cta-text != NULL }
 link: $overlay-card.cta-link
-color: $ds.colors.cta-secondary.base
-color if { overlay-card.mouse-in }: $ds.colors.cta-secondary.hover
+color: $inherited.colors.cta-secondary.base
+color if { overlay-card.mouse-in }: $inherited.colors.cta-secondary.hover
 style: underline, bold
 $on-mouse-enter$: $ftd.set-bool($a = $overlay-card.mouse-in, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $overlay-card.mouse-in, v = false)
@@ -144,6 +144,7 @@ align if { ftd.device == "mobile" }: center
 -- end: ds.row
 
 -- end: metric-card
+
 
 
 
