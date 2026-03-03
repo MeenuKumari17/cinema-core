@@ -75,7 +75,7 @@ anchor: parent
 left.px: 0
 top.px: -124
 
--- accordion.right-hug-accordion: Lorem Ipsum
+-- lib.right-hug-accordion: Lorem Ipsum
 accordions: $accordions
 background: true
 no-border: true
@@ -240,24 +240,24 @@ Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
 
 
--- accordion.accordion-list list accordions:
+-- lib.accordion-list list accordions:
 
--- accordion.accordion-list: Lorem ipsum dolor sit amet?
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
-in luctus rutrum.
-
--- accordion.accordion-list: Lorem ipsum dolor sit amet?
+-- lib.accordion-list: Lorem ipsum dolor sit amet?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
--- accordion.accordion-list: Lorem ipsum dolor sit amet?
+-- lib.accordion-list: Lorem ipsum dolor sit amet?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
--- accordion.accordion-list: Lorem ipsum dolor sit amet?
+-- lib.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- lib.accordion-list: Lorem ipsum dolor sit amet?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
