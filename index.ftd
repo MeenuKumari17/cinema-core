@@ -15,7 +15,7 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation
 
 -- ds.column:
-background.solid: $ds.colors.background.step-1
+background.solid: $inherited.colors.background.step-1
 radius: $ds.radius.zero
 inset: $ds.spaces.inset-square.extra-large
 spacing: $ds.spaces.vertical-gap.extra-large
@@ -86,7 +86,7 @@ deserunt mollit anim id est laborum.
 -- end: ds.column
 
 -- ds.column:
-background.solid: $ds.colors.background.step-1
+background.solid: $inherited.colors.background.step-1
 inset: $ds.spaces.inset-tall.large
 radius: $ds.radius.zero
 spacing: $ds.spaces.vertical-gap.large
